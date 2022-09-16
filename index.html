@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMPLE CALCULATOR</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="main">
+        <div  class="header">
+            <h1>Simple Calculator</h1>
+            <p>Create by: Lana Mae Galvez</p>
+        </div>
+        
+        <div class="container">
+            
+            <input type="text" class="input">
+
+            <button id="clear" class="clear" onclick="clearNum()">Clear</button>
+            <button id="del" class="del" onclick="deleteNum()">del</button>
+            <button id="div" class="div" onclick="clickNum('/')">/</button>
+            <button id="mul" class="mul" onclick="clickNum('*')">X</button>
+
+            <button id="seven" class="num" onclick="clickNum(7)">7</button>
+            <button id="eight" class="num" onclick="clickNum(8)">8</button>
+            <button id="nine" class="num" onclick="clickNum(9)">9</button>
+            <button id="min" class="min" onclick="clickNum('-')">-</button>
+
+            <button id="four" class="num" onclick="clickNum(4)">4</button>
+            <button id="five" class="num" onclick="clickNum(5)">5</button>
+            <button id="six" class="num" onclick="clickNum(6)">6</button>
+            <button id="add" class="add" onclick="clickNum('+')">+</button>
+ 
+            <button id="one" class="num" onclick="clickNum(1)">1</button>
+            <button id="two" class="num" onclick="clickNum(2)">2</button>
+            <button id="three" class="num" onclick="clickNum(3)">3</button>
+            <button id="eq" class="eq" onclick="eq()"> = </button>
+
+            <button id="zero" class="num" onclick="clickNum(0)">0</button>
+            <button id="point" class="num" onclick="clickNum('.')">.</button>
+          
+           
+
+
+        </div>
+
+    </div>
+</body>
+
+<script src="script.js"></script>
+</html>
